@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "mongoose": "^5.0.11",
+    "node-telegram-bot-api": "^0.30.0",
     "request-promise-native": "^1.0.5",
     "requests": "^0.2.2"
   }

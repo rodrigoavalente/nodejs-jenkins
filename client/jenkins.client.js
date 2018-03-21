@@ -1,5 +1,5 @@
 const request = require('request-promise-native');
-const RequestExceptions = require('../exceptions/request_exceptions');
+const RequestExceptions = require('../exceptions/requests.exception');
 
 function JenkinsClient(username, password, jenkins_url) {
     this.username = null;
