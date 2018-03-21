@@ -4,8 +4,9 @@ const Schema = mongoose.Schema;
 const JenkinsSchema = require('./jenkins.schema').schema;
 
 const UserSchema = new Schema({
+    first_name: String,
+    last_name: String,
     username: String,
-    password: String,
     telegram_id: String,
     user_jenkins: [JenkinsSchema]
 });
