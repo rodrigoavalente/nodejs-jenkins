@@ -9,7 +9,6 @@ const JenkinsSchema = new Schema({
     jobs: [String]
 });
 
-
 const JenkinsModel = mongoose.model('Jenkins', JenkinsSchema);
 
 module.exports = {
